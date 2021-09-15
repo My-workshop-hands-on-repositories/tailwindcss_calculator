@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-yellow-100">
+    <!-- Workspace -->
+    <div class="mx-auto mt-40 flex justify-center items-center bg-yellow-100">
+      <!-- Calculator Body -->
+      <div class="bg-gray-200 p-5 rounded-2xl shadow-md">
+        <!-- Monitor -->
+        <div
+          class="
+            bg-gradient-to-r
+            from-monitor-light
+            to-monitor-dark
+            text-right
+            rounded-md
+            p-4
+          "
+        >
+          <p class="text-md text-gray-500 font-medium">25 X 1000</p>
+          <p class="text-3xl text-gray-700 font-bold">25,000</p>
+        </div>
+
+        <!-- Btns -->
+        <div class="justify-between">
+          <!-- row1_btns -->
+          <div class="flex gap-2 my-2">
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>C</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p class="text-sm">+/-</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>%</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-green-300
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+                
+              "
+            >
+              <p class="text-white">/</p>
+            </div>
+          </div>
+
+          <!-- row2_btns -->
+          <div class="flex gap-2 my-2">
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>1</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>2</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>3</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+              bg-green-300
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p class="text-white">X</p>
+            </div>
+          </div>
+
+          <!-- row3_btns -->
+          <div class="flex gap-2 my-2">
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>4</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>5</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>6</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+              bg-green-300
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p class="text-white">-</p>
+            </div>
+          </div>
+
+          <!-- row4_btns -->
+          <div class="flex gap-2 my-2">
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>7</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>8</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>9</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+              bg-green-300
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p class="text-white">+</p>
+            </div>
+          </div>
+
+          <!-- row5_btns -->
+          <div class="flex justify-between gap-2 my-2">
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-24
+                text-center
+              "
+            >
+              <p>0</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-gray-100
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p>,</p>
+            </div>
+
+            <!-- btn -->
+            <div
+              class="
+                bg-yellow-400
+                rounded-md
+                shadow-sm
+                px-5
+                py-3
+                w-12
+                text-center
+              "
+            >
+              <p class="text-white">=</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
